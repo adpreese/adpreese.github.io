@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[blog]]></title>
+  <link href="adpreese.github.io/atom.xml" rel="self"/>
+  <link href="adpreese.github.io/"/>
+  <updated>2015-10-28T23:04:03-04:00</updated>
+  <id>adpreese.github.io/</id>
+  <author>
+    <name><![CDATA[Adam Reese]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Did Anybody Die?]]></title>
+    <link href="adpreese.github.io/blog/2014/02/10/did-anybody-die/"/>
+    <updated>2014-02-10T08:34:09-05:00</updated>
+    <id>adpreese.github.io/blog/2014/02/10/did-anybody-die</id>
+    <content type="html"><![CDATA[<p>&ldquo;Did anybody die?&rdquo;</p>
+
+<p>&ldquo;No.&rdquo;</p>
+
+<p>&ldquo;Then it&rsquo;s not that bad.&rdquo;</p>
+
+<!-- more -->
+
+
+<p>I don&rsquo;t know the first time I said this at work, but it&rsquo;s become important for me. Mantra, guiding principle, blah blah blah. But yeah. I work with a lot of veterans of active war zones. They talk about getting shelled by enemy mortars while walking to get breakfast. That&rsquo;s something I have no context for. If I want to go eat breakfast, I just do and its fine. It&rsquo;s put things in perspective for me though.</p>
+
+<p>At any job I have, the worst that can happen is I lose my job. It&rsquo;s not that bad. It&rsquo;s bad. It&rsquo;s shitty. But it&rsquo;s not <em>That</em> bad.</p>
+
+<p>It&rsquo;s about having a better baseline for every day. When you start with the base line of &ldquo;Fuck they don&rsquo;t have my mixed berry scone in stock at the coffee shop right across the street from my high rise condo&rdquo;, every little thing is a tragedy. If you start from nobody died, suddenly it becomes like whatever man.</p>
+
+<p>My company&rsquo;s social media specialist called me over one day in a panic because our Twitter feed on our website wasn&rsquo;t working right. I asked him if anybody died. &ldquo;No.&rdquo; I told him it wasn&rsquo;t that bad then and we worked on a solution. And that&rsquo;s the reality of most situations. If nobody died, it&rsquo;s not that bad. There are still some things that are that bad I&rsquo;m sure, but I can&rsquo;t think of any. So the next time you get worked up over your site crashing, remember nobody died. It&rsquo;s not that bad. Calm down a little and solve the problem with a clear head.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Making Simple Fake People]]></title>
+    <link href="adpreese.github.io/blog/2014/01/25/making-simple-fake-people/"/>
+    <updated>2014-01-25T17:39:51-05:00</updated>
+    <id>adpreese.github.io/blog/2014/01/25/making-simple-fake-people</id>
+    <content type="html"><![CDATA[<p>What makes a person a person is quite the question. Some would say the soul, some the personality, some the flesh and blood. Fortunately, I don&rsquo;t have to care for exercise. All I&rsquo;m trying to make is data that can sit in your tbl_person equivalent. This is Part 2 of the {And Then There Was Light} series, an indefinite ongoing feature.</p>
+
+<!-- more -->
+
+
+<h2>The Easy Part &ndash; Basic Demographic Info</h2>
+
+<h2>Name</h2>
+
+<p>Data Source: US Census data [Link to it]</p>
+
+<p>The US Government posts given and surnames ranked by popularity. I randomly select from the list of names with a uniform distribution because I want a good mix without much repetition. It looks better to have a Jack, a Jeff, and a Zhou, than 2 Jacks and a Jeff in my opinion. It&rsquo;s obligatory to mention Patrick Mackenzie&rsquo;s piece on names(Link) which basically can be summed up as &ldquo;Shit&rsquo;s fucking hard. You will fail.&rdquo; But that&rsquo;s fine, I&rsquo;m just worried about being able to create a lot of average people. So I randomly select two gender appropriate first names from the list of first names to be a first and middle name, and then one from the surnames to create a very common name format. It&rsquo;s also possible here to have ADVANCED NAME GENERATION TECHNOLOGIES to try to test possible failure cases. So you could create people with only one name, with hyphenated names, etc. and this may be explored in another post, but for now, we&rsquo;re good with a simple common FirstName MiddleName LastName format.</p>
+
+<h2>Age/Date of Birth</h2>
+
+<p>Data Source: [Java random standard distribution sample]</p>
+
+<p>(Random/Doesn&rsquo;t matter) Age/Date of Birth is unlikely to matter. You might be interested in featuring something specific like a focus on geriatric patients or families with elementary students.</p>
+
+<h2>SSN</h2>
+
+<p>Data Source: [Java function to make it]</p>
+
+<p>(Random/Doesn&rsquo;t matter) Once again, could have information embedded in the number, but unimportant. There are similar  data types for Non-US  countries. I&rsquo;ll probably do a few common ones in the future. There are also other unique(ish) ID types and formats that may be relevant for your domain. This is just a starting point that should cover most people&rsquo;s bases.</p>
+
+<h2>Height/Weight</h2>
+
+<p>Data Source: [Java random code with a good mean and deviation value selected]</p>
+
+<p>Random in a range. I keep it in a standard deviation of the mean because you just want this information to sit in the background. It lends credibility without creating any real signal. Appropriate for some things(Police databases), very inappropriate for others(Cheese King&rsquo;s newsletters).</p>
+
+<h2>Race/Ethnicity</h2>
+
+<p>Data Source:</p>
+
+<p>These are tricky and not essential for what a lot of people do. If you don&rsquo;t need them, you probably shouldn&rsquo;t touch them. But a lot of people need or &ldquo;need&rdquo; them. Advertisers and law enforcement are two of the biggest ones I can think of. If you do need them, first you have to come up with your lists for both. I&rsquo;m taking the short cut of</p>
+
+<p>You could have this impact your name selection if it&rsquo;s relevant to believability for your currrent problem. That would require a lot of manual coding of ethnicity to name or changing to a different data source where the data is already linked.</p>
+
+<h2>User Accounts(Phone number, email, Facebook name etc.)</h2>
+
+<p>Facebook/Email offer a couple interesting opportunities for personality. You can have your 45 year olds with cowboy4852@AOL.com, the 13 year olds with spidy99@gmail.com, the yuppie with the <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#58;&#x65;&#x6c;&#x69;&#x61;&#x73;&#46;&#x6d;&#97;&#x72;&#x73;&#x64;&#101;&#x6e;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#46;">&#x65;&#108;&#105;&#x61;&#115;&#46;&#x6d;&#x61;&#x72;&#115;&#x64;&#101;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;&#x2e;</a> This is the first example of one piece of data possibly depending on another for its value.</p>
+
+<p>So what do we have at the end of all this? A bunch of people. They have names and decent unique IDs, some basic properties that are intrinsic to them and unlikely to change dramatically over time. Sure, some people nuke their facebooks and start over. Others legally change their names. Others lose a lot of weight, but it&rsquo;s a relatively small portion of people and we&rsquo;re explicitly not worried about dealing with that.</p>
+]]></content>
+  </entry>
+  
+</feed>
