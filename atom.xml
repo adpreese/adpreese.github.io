@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[blog]]></title>
-  <link href="adpreese.github.io/atom.xml" rel="self"/>
-  <link href="adpreese.github.io/"/>
-  <updated>2015-10-28T23:04:03-04:00</updated>
-  <id>adpreese.github.io/</id>
+  <link href="http://adpreese.github.io/atom.xml" rel="self"/>
+  <link href="http://adpreese.github.io/"/>
+  <updated>2015-11-04T22:40:10-05:00</updated>
+  <id>http://adpreese.github.io/</id>
   <author>
     <name><![CDATA[Adam Reese]]></name>
     
@@ -14,10 +14,63 @@
 
   
   <entry>
+    <title type="html"><![CDATA[MoMA's 27 Club]]></title>
+    <link href="http://adpreese.github.io/blog/2015/10/29/momas-27-club/"/>
+    <updated>2015-10-29T00:04:55-04:00</updated>
+    <id>http://adpreese.github.io/blog/2015/10/29/momas-27-club</id>
+    <content type="html"><![CDATA[<p>Music popularized the idea of the <a href="https://en.wikipedia.org/wiki/27_Club">27 Club</a> but where are the other artists who also belong?</p>
+
+<!-- more -->
+
+
+<p>Using the biographical data on artists provided by the <a href="https://github.com/MuseumofModernArt/collection">MoMA</a> I&rsquo;ve extracted a non-exhaustive list of birth and death dates where available.</p>
+
+<ul>
+<li>Il&#8217;ia Chashnik died from complications during surgery.</li>
+<li>Robert Howlett died from arsenic and mercury poisoning as part of his photographic process. So some might say he died in a similar way to Janet and Jimi, from chemicals necessary for his art.</li>
+<li>Henri Evenepoel died of Typhus.</li>
+<li>Robert Adamson died from illness.</li>
+<li>Roberto Ossaye died from causes I couldn&rsquo;t easily determine.</li>
+<li>August Macke died during the First World War.</li>
+</ul>
+
+
+<p>From the dataset I also found Josef Raynefeld(Jozef Rajnfeld in Polish), but I think MoMA&rsquo;s date of birth for him is incorrect. Polish Wikipedia indicates he <a href="https://pl.wikipedia.org/wiki/J%C3%B3zef_Rajnfeld">lived to be 32</a>.</p>
+
+<p>This&rsquo;ll be part of an ongoing series as I integrate other data sets in to my analysis.</p>
+
+<p>Tune in next time when I break down some &ldquo;Untitled&rdquo; nonsense.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Art Than Science]]></title>
+    <link href="http://adpreese.github.io/blog/2015/10/28/more-art-than-science/"/>
+    <updated>2015-10-28T23:15:59-04:00</updated>
+    <id>http://adpreese.github.io/blog/2015/10/28/more-art-than-science</id>
+    <content type="html"><![CDATA[<p>The MOMA has a file out with metadata about all the pieces in its <a href="https://github.com/MuseumofModernArt/collection">collection</a>. I like art. I&rsquo;ve enjoyed my trips to the MoMA. So I thought it&rsquo;d be fun to see what kind of stupid stuff I can do with it. Some of my ideas so far:</p>
+
+<!-- more -->
+
+
+<ul>
+<li>What artists with pieces in the MoMA are members of the <a href="https://en.wikipedia.org/wiki/27_Club">27 Club</a>?</li>
+<li>What is the most represented country?</li>
+<li>How many works have untitled as the name?</li>
+<li>Who was the artist to produce a museum-worthy piece at the youngest age?</li>
+<li>Is the Louvre&rsquo;s collection on average more red than the MoMA&rsquo;s?</li>
+</ul>
+
+
+<p>So yeah, the only one even kind of about the actual art is that last one. If this is your kind of thing, stay tuned.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Did Anybody Die?]]></title>
-    <link href="adpreese.github.io/blog/2014/02/10/did-anybody-die/"/>
+    <link href="http://adpreese.github.io/blog/2014/02/10/did-anybody-die/"/>
     <updated>2014-02-10T08:34:09-05:00</updated>
-    <id>adpreese.github.io/blog/2014/02/10/did-anybody-die</id>
+    <id>http://adpreese.github.io/blog/2014/02/10/did-anybody-die</id>
     <content type="html"><![CDATA[<p>&ldquo;Did anybody die?&rdquo;</p>
 
 <p>&ldquo;No.&rdquo;</p>
@@ -39,9 +92,9 @@
   
   <entry>
     <title type="html"><![CDATA[Making Simple Fake People]]></title>
-    <link href="adpreese.github.io/blog/2014/01/25/making-simple-fake-people/"/>
+    <link href="http://adpreese.github.io/blog/2014/01/25/making-simple-fake-people/"/>
     <updated>2014-01-25T17:39:51-05:00</updated>
-    <id>adpreese.github.io/blog/2014/01/25/making-simple-fake-people</id>
+    <id>http://adpreese.github.io/blog/2014/01/25/making-simple-fake-people</id>
     <content type="html"><![CDATA[<p>What makes a person a person is quite the question. Some would say the soul, some the personality, some the flesh and blood. Fortunately, I don&rsquo;t have to care for exercise. All I&rsquo;m trying to make is data that can sit in your tbl_person equivalent. This is Part 2 of the {And Then There Was Light} series, an indefinite ongoing feature.</p>
 
 <!-- more -->
@@ -83,7 +136,7 @@
 
 <h2>User Accounts(Phone number, email, Facebook name etc.)</h2>
 
-<p>Facebook/Email offer a couple interesting opportunities for personality. You can have your 45 year olds with cowboy4852@AOL.com, the 13 year olds with spidy99@gmail.com, the yuppie with the <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#58;&#x65;&#x6c;&#x69;&#x61;&#x73;&#46;&#x6d;&#97;&#x72;&#x73;&#x64;&#101;&#x6e;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#x6f;&#109;&#46;">&#x65;&#108;&#105;&#x61;&#115;&#46;&#x6d;&#x61;&#x72;&#115;&#x64;&#101;&#x6e;&#64;&#x67;&#109;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;&#x2e;</a> This is the first example of one piece of data possibly depending on another for its value.</p>
+<p>Facebook/Email offer a couple interesting opportunities for personality. You can have your 45 year olds with cowboy4852@AOL.com, the 13 year olds with spidy99@gmail.com, the yuppie with the <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#x65;&#x6c;&#105;&#x61;&#x73;&#x2e;&#109;&#97;&#114;&#115;&#x64;&#101;&#110;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;&#46;">&#101;&#x6c;&#105;&#97;&#x73;&#x2e;&#109;&#97;&#114;&#x73;&#x64;&#x65;&#110;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#x6f;&#109;&#x2e;</a> This is the first example of one piece of data possibly depending on another for its value.</p>
 
 <p>So what do we have at the end of all this? A bunch of people. They have names and decent unique IDs, some basic properties that are intrinsic to them and unlikely to change dramatically over time. Sure, some people nuke their facebooks and start over. Others legally change their names. Others lose a lot of weight, but it&rsquo;s a relatively small portion of people and we&rsquo;re explicitly not worried about dealing with that.</p>
 ]]></content>

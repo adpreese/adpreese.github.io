@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Than | blog]]></title>
+  <link href="http://adpreese.github.io/blog/categories/than/atom.xml" rel="self"/>
+  <link href="http://adpreese.github.io/"/>
+  <updated>2015-11-04T22:40:10-05:00</updated>
+  <id>http://adpreese.github.io/</id>
+  <author>
+    <name><![CDATA[Adam Reese]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MoMA's 27 Club]]></title>
+    <link href="http://adpreese.github.io/blog/2015/10/29/momas-27-club/"/>
+    <updated>2015-10-29T00:04:55-04:00</updated>
+    <id>http://adpreese.github.io/blog/2015/10/29/momas-27-club</id>
+    <content type="html"><![CDATA[<p>Music popularized the idea of the <a href="https://en.wikipedia.org/wiki/27_Club">27 Club</a> but where are the other artists who also belong?</p>
+
+<!-- more -->
+
+
+<p>Using the biographical data on artists provided by the <a href="https://github.com/MuseumofModernArt/collection">MoMA</a> I&rsquo;ve extracted a non-exhaustive list of birth and death dates where available.</p>
+
+<ul>
+<li>Il'ia Chashnik died from complications during surgery.</li>
+<li>Robert Howlett died from arsenic and mercury poisoning as part of his photographic process. So some might say he died in a similar way to Janet and Jimi, from chemicals necessary for his art.</li>
+<li>Henri Evenepoel died of Typhus.</li>
+<li>Robert Adamson died from illness.</li>
+<li>Roberto Ossaye died from causes I couldn&rsquo;t easily determine.</li>
+<li>August Macke died during the First World War.</li>
+</ul>
+
+
+<p>From the dataset I also found Josef Raynefeld(Jozef Rajnfeld in Polish), but I think MoMA&rsquo;s date of birth for him is incorrect. Polish Wikipedia indicates he <a href="https://pl.wikipedia.org/wiki/J%C3%B3zef_Rajnfeld">lived to be 32</a>.</p>
+
+<p>This&rsquo;ll be part of an ongoing series as I integrate other data sets in to my analysis.</p>
+
+<p>Tune in next time when I break down some &ldquo;Untitled&rdquo; nonsense.</p>
+]]></content>
+  </entry>
+  
+</feed>

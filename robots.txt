@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: adpreese.github.io/sitemap.xml 
+Sitemap: http://adpreese.github.io/sitemap.xml 
